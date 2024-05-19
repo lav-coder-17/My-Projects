@@ -1,4 +1,4 @@
-// Porject Created By Malav Shah Ig:- lav._.coder
+// Project Created By Malav Shah Ig:- lav._.coder
 // Length Converter Variables Declared //
 var ft = document.getElementById('ft');
 var inch = document.getElementById('in');
@@ -104,4 +104,4 @@ function sqinfun(){
     sqyd.value = sqin.value * 0.000771605;
     sqft.value = sqin.value * 0.00694444;
 }
-// Porject Created By Malav Shah Ig:- lav._.coder
+// Project Created By Malav Shah Ig:- lav._.coder
