@@ -1,0 +1,76 @@
+/* Project Created by Malav Shah Ig:- @lav._.coder */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #A91D3A;
+}
+
+.container {
+    width: 80vmin;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    padding: 20px 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px #a91d3952;
+}
+
+.container img {
+    display: block;
+    height: 300px;
+    max-width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.container p {
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400; 
+    word-wrap: break-word;
+    margin: 10px 0;
+    /* opacity: 0; */
+}
+
+button {
+    display: block;
+    color: #eee;
+    background-color: #A91D3A;
+    padding: 10px 10px;
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #6d1426}
+
+button:active {
+    background-color: #6d1426;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+/* Project Created by Malav Shah Ig:- @lav._.coder */
