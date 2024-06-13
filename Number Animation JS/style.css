@@ -1,0 +1,100 @@
+/* Project Created by Malav Shah Ig:- @lav._.coder */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #686D76;
+}
+
+.wrapper {
+    position: absolute;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.container {
+    width: 28vmin;
+    height: 28vmin;
+    border-radius: 5px;
+    border-bottom: 10px solid #DC5F00;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #373A40;
+    padding: 1em 0;
+    position: relative;
+}
+
+i {
+    color: #DC5F00;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+span.num {
+    color: #EEEEEE;
+    display: grid;
+    place-items: center;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+span.txt {
+    color: #EEEEEE;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    line-height: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper {
+        width: 85vw;
+    }
+
+    .container {
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 90vw;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .container {
+        height: 30vmin;
+        width: calc(50% - 40px);
+        font-size: 14px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        gap: 15px;
+    }
+
+    .container {
+        height: 25vmin;
+        width: 100%;
+        font-size: 8px;
+    }
+}
+/* Project Created by Malav Shah Ig:- @lav._.coder */
